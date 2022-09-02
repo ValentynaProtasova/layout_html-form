@@ -13,7 +13,7 @@
   <body>
     <script type="text/javascript" src="./main.js"></script>
 
-    <form action="http:localhost:8080/api" method="post">
+    <form action="http://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
 
       <fieldset class="form-group">
         <legend>Personal information</legend>
@@ -47,12 +47,13 @@
         </label>
 
         <div class="form-field">
-          <label for="data">Full date of birth:</label>
-          <input
-            type="data"
-            id="data"
-            name="data"
-            value="dd. mm. yyyy">
+          <label for="date">Full date of birth:
+            <input
+              type="date"
+              id="date"
+              name="date"
+            >
+          </label>
         </div>
 
         <label class="form-field">
@@ -129,12 +130,14 @@
 
         <form class="form-field">
           <label for="appt">
-          What time do you go to bed?
+            What time do you go to bed?
           </label>
+          
           <input
             type="time"
             id="appt"
             name="appt"
+            step="1"
             required
           >
         </form>
@@ -175,7 +178,8 @@
 
         <label class="form-field">
           Would you recommend us?
-          <select name="recommend"
+          <select 
+            name="recommend"
             required
             autocomplete="off"
           >
