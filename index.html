@@ -11,7 +11,6 @@
     <script type="text/javascript" src="/main.1f19ae8e.js"></script>
 
     <form action="http://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
-
       <fieldset class="form-group">
         <legend>Personal information</legend>
 
@@ -79,27 +78,25 @@
           <input type="color" id="favcolor" name="favcolor">
         </div>
 
-        <form class="form-field">
+        <div class="form-field">
           <label for="appt">
             What time do you go to bed?
           </label>
           
           <input type="time" id="appt" name="appt" step="1" required="">
-        </form>
+        </div>
 
-        <p>
-          <label class="form-field">
-            What are your favorite brand of cars?
-            <select name="cars" multiple="">
-              <option value="bmw">BMW</option>
-              <option value="audi">Audi</option>
-              <option value="lada">Lada</option>
-            </select>
-          </label>
-        </p>
+        <label class="form-field">
+          What are your favorite brand of cars?
+          <select name="cars" multiple="">
+            <option value="bmw">BMW</option>
+            <option value="audi">Audi</option>
+            <option value="lada">Lada</option>
+          </select>
+        </label>
 
         <div class="form-field">
-          <label for="rate">How do you rate or work?</label>
+          <label for="rate">How do you rate our work?</label>
           <input type="range" id="rate" name="rate">
         </div>
       </fieldset>
