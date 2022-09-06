@@ -4,7 +4,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Entire_document-0.png",
-        "test": "../bitmaps_test/20220809-142449/Entire_document-0.png",
+        "test": "../bitmaps_test/20220906-145204/Entire_document-0.png",
         "selector": "document",
         "fileName": "Entire_document-0.png",
         "label": "Entire document",
@@ -20,17 +20,16 @@
             "width": 0,
             "height": 0
           },
-          "misMatchPercentage": "6.18",
-          "analysisTime": 37
-        },
-        "diffImage": "../bitmaps_test/20220809-142449/failed_diff_Entire_document-0.png"
+          "misMatchPercentage": "0.04",
+          "analysisTime": 26
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Form-0.png",
-        "test": "../bitmaps_test/20220809-142449/Form-0.png",
+        "test": "../bitmaps_test/20220906-145204/Form-0.png",
         "selector": "form",
         "fileName": "Form-0.png",
         "label": "Form",
@@ -41,22 +40,21 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -150
+            "height": 0
           },
-          "misMatchPercentage": "5.19",
-          "analysisTime": 41
-        },
-        "diffImage": "../bitmaps_test/20220809-142449/failed_diff_Form-0.png"
+          "misMatchPercentage": "0.05",
+          "analysisTime": 26
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-0.png",
-        "test": "../bitmaps_test/20220809-142449/Fieldset_tag-0.png",
+        "test": "../bitmaps_test/20220906-145204/Fieldset_tag-0.png",
         "selector": "fieldset",
         "fileName": "Fieldset_tag-0.png",
         "label": "Fieldset tag",
@@ -67,22 +65,20 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -2
+            "height": 0
           },
-          "misMatchPercentage": "2.36",
-          "analysisTime": 27
-        },
-        "diffImage": "../bitmaps_test/20220809-142449/failed_diff_Fieldset_tag-0.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-1.png",
-        "test": "../bitmaps_test/20220809-142449/Fieldset_tag-1.png",
+        "test": "../bitmaps_test/20220906-145204/Fieldset_tag-1.png",
         "selector": "fieldset.__n1",
         "fileName": "Fieldset_tag-1.png",
         "label": "Fieldset tag",
@@ -106,7 +102,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-2.png",
-        "test": "../bitmaps_test/20220809-142449/Fieldset_tag-2.png",
+        "test": "../bitmaps_test/20220906-145204/Fieldset_tag-2.png",
         "selector": "fieldset.__n2",
         "fileName": "Fieldset_tag-2.png",
         "label": "Fieldset tag",
@@ -117,22 +113,21 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": -12
+            "height": 0
           },
-          "misMatchPercentage": "3.45",
-          "analysisTime": 31
-        },
-        "diffImage": "../bitmaps_test/20220809-142449/failed_diff_Fieldset_tag-2.png"
+          "misMatchPercentage": "0.14",
+          "analysisTime": 25
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Fieldset_tag-3.png",
-        "test": "../bitmaps_test/20220809-142449/Fieldset_tag-3.png",
+        "test": "../bitmaps_test/20220906-145204/Fieldset_tag-3.png",
         "selector": "fieldset.__n3",
         "fileName": "Fieldset_tag-3.png",
         "label": "Fieldset tag",
@@ -143,22 +138,20 @@
         "expect": 0,
         "viewportLabel": "tablet_h",
         "diff": {
-          "isSameDimensions": false,
+          "isSameDimensions": true,
           "dimensionDifference": {
             "width": 0,
-            "height": 1
+            "height": 0
           },
-          "misMatchPercentage": "4.15",
-          "analysisTime": 30
-        },
-        "diffImage": "../bitmaps_test/20220809-142449/failed_diff_Fieldset_tag-3.png"
+          "misMatchPercentage": "0.00"
+        }
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "pair": {
         "reference": "../bitmaps_reference/Submit_button-0.png",
-        "test": "../bitmaps_test/20220809-142449/Submit_button-0.png",
+        "test": "../bitmaps_test/20220906-145204/Submit_button-0.png",
         "selector": "[type=\"submit\"]",
         "fileName": "Submit_button-0.png",
         "label": "Submit button",
@@ -182,7 +175,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Email_with_placeholder-0.png",
-        "test": "../bitmaps_test/20220809-142449/Email_with_placeholder-0.png",
+        "test": "../bitmaps_test/20220906-145204/Email_with_placeholder-0.png",
         "selector": "[type=\"email\"][placeholder]",
         "fileName": "Email_with_placeholder-0.png",
         "label": "Email with placeholder",
@@ -206,7 +199,7 @@
     {
       "pair": {
         "reference": "../bitmaps_reference/Number_with_value-0.png",
-        "test": "../bitmaps_test/20220809-142449/Number_with_value-0.png",
+        "test": "../bitmaps_test/20220906-145204/Number_with_value-0.png",
         "selector": "[type=\"number\"][value]",
         "fileName": "Number_with_value-0.png",
         "label": "Number with value",
